@@ -24,7 +24,7 @@ void BGSource::tick() {
 
         if (!firstConnectionSuccess) {
             DisplayManager.clearMatrix();
-            DisplayManager.printText(0, 6, "To API", TEXT_ALIGNMENT::CENTER, 0);
+            DisplayManager.printText(0, 6, "To NS", TEXT_ALIGNMENT::CENTER, 0);
         }
 
         glucoseReadings = updateReadings(glucoseReadings);
